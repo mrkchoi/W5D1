@@ -1,22 +1,54 @@
 .main-nav {
-
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-
+  display: flex;
+  align-items: center;
 }
 
 .left-nav > ul > li {
-
+  font-family: $sans-serif;
+  font-size: .4rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 100ms all ease-in-out;
+  padding: 0.3rem 0.4rem;
+}
+.left-nav > ul > li:hover {
+  background-color: $light-gray;
+  border-radius: 2px;
 }
 
-.right-nav > ul > li {
+i.fa.fa-bars,
+i.fa.fa-search {
+  margin-right: .3rem;
+}
 
+// .fas.fa-cog {
+
+// }
+
+.left-nav > ul > li {
+  margin-right: .6rem;
+}
+.right-nav > ul > li {
+  margin-right: .1rem;
+  cursor: pointer;
 }
 
 .right-nav > ul > li:last-of-type {
+  margin-left: .35rem;
+  font-size: .5rem;
+  transition: 100ms all ease-in-out;
+}
 
+.right-nav > ul > li:last-of-type:hover {
+  color: $dark-gray;
 }
 
 .left-nav > ul > li:hover,
