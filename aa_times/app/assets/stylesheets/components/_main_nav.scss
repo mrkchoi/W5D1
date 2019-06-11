@@ -47,8 +47,12 @@ i.fa.fa-search {
   transition: 100ms all ease-in-out;
 }
 
-.right-nav > ul > li:last-of-type:hover {
+.right-nav > ul > li i:last-of-type:hover {
   color: $dark-gray;
+}
+
+.right-nav > ul > li:last-of-type {
+  position: relative;
 }
 
 .left-nav > ul > li:hover,
