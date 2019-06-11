@@ -1,0 +1,38 @@
+////////////////////////////
+// MAIN NAV SECTION
+////////////////////////////
+.sections-nav__wrapper {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid $light-gray;
+}
+.sections-nav {
+  margin: 0 auto;
+}
+.sections-nav ul {
+  display: flex;
+}
+.sections-nav li a {
+  margin: 0 .3rem;
+  font-family: $sans-serif;
+  transition: 100ms all ease-in-out;
+}
+.sections-nav li a {
+  display: inline-block;
+  padding: .4rem;
+}
+
+.sections-nav__links {
+  border-radius: 2px;
+}
+
+.sections-nav__links-last {
+  text-transform: uppercase;
+}
+
+.sections-nav__links-last:hover {
+  text-decoration: underline;
+}
+.sections-nav__links:hover {
+  background-color: $light-gray;
+}
